@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero" id="Hero">
       <div className="hero-left">
-        <div className="avatar"><img src="/Profile.png" alt="My photo" /></div>
+        <img src={`${import.meta.env.BASE_URL}Profile.png`} alt="Profile" />
       </div>
 
       <div className="hero-right">

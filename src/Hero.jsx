@@ -1,11 +1,11 @@
 import "./Hero.css";
-// import profileImg from "../assets/Profile.png";
+import profileImg from "./assets/Profile.png";
 
 export default function Hero() {
   return (
     <section className="hero" id="Hero">
       <div className="hero-left">
-        <div className="avatar"><img src="/Profile.png" alt="My photo" /></div>
+        <div className="avatar"><img src={profileImg} alt="My photo" /></div>
       </div>
 
       <div className="hero-right">

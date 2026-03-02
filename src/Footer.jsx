@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="site-footer">
         <div className="foot">
             <div className="foot-p1">
-            <h3 className="p1-name">PRATHAMESH GHADI</h3>
+            <h3 className="p1-name">PRATHAMESH</h3>
             <p className="p1-desc">Full-stack developer crafting pixel-perfect experiences. Always ready for the next challenge.</p>
         </div>
         <div className="foot-p2">

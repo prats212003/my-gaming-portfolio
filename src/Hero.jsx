@@ -5,7 +5,9 @@ export default function Hero() {
   return (
     <section className="hero" id="Hero">
       <div className="hero-left">
+
         <div className="avatar"><img src={profileImg} alt="My photo" /></div>
+
       </div>
 
       <div className="hero-right">

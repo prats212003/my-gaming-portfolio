@@ -251,49 +251,48 @@
 }
 
 @media only screen and (max-width: 1024px){
-  body{
-    padding: 0%;
-    margin: 0%;
-  }
-  .hero{
-    display: block;
-  }
-  .avatar{
-    margin-left: 0;
 
+  .hero{
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 40px 20px;
   }
-  .primary{
-    padding: 1% 20%;
-  }
-  .secondary{
-    padding: 1% 20%;
-  }
-  .c{
+
+  .hero-left,
+  .hero-right{
     width: 100%;
   }
-  .hero-right{
-    width: 70%;
-  }
+
   .avatar{
-    width: 270px;
-    height: 270px;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 220px;
+    height: 220px;
   }
+
+  .hero-right h1{
+    font-size: 40px;
+  }
+
+  .c{
+    width: 80%;
+  }
+
   .buttons{
-    /* border: 1px solid black; */
-    display: block;
-    height: 140px;
-    gap: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
   }
+
   .primary{
-    height: 40%;
-    width: 60%;
-    padding: 2px 4px;
+    width: 50%;
+    padding: 12px;
   }
+
   .secondary{
-    height: 40%;
-    width: 45%;
-    padding: 2px 4px;
-    margin-top: 15px;
+    width: 30%;
+    padding: 12px;
   }
 }

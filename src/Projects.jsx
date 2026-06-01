@@ -1,43 +1,5 @@
 import "./Projects.css";
-
-const projects = [
-  {
-    title: "Pixel Quest RPG",
-    xp: 15,
-    desc: "A retro-style RPG game built with React and Canvas API",
-    tags: ["React", "Canvas", "Game"]
-  },
-  {
-    title: "AI Chat Bot",
-    xp: 20,
-    desc: "Smart chatbot powered by latest AI models",
-    tags: ["AI", "Node.js", "API"]
-  },
-  {
-    title: "E-Commerce Platform",
-    xp: 25,
-    desc: "Full-stack shopping experience with payment integration",
-    tags: ["Full-Stack", "Stripe", "MongoDB"]
-  },
-  {
-    title: "Weather Dashboard",
-    xp: 10,
-    desc: "Real-time weather data visualization",
-    tags: ["React", "API", "Charts"]
-  },
-  {
-    title: "Task Manager Pro",
-    xp: 18,
-    desc: "Collaborative project management tool",
-    tags: ["React", "WebSocket", "Firebase"]
-  },
-  {
-    title: "Portfolio Generator",
-    xp: 22,
-    desc: "Automated portfolio site builder",
-    tags: ["Next.js", "CMS", "Deploy"]
-  }
-];
+import { projects } from "./projectsData.jsx";
 
 export default function Projects() {
   return (
@@ -52,7 +14,7 @@ export default function Projects() {
               <h3 className="project-title">{p.title}</h3>
 
               <div className="project-coin">
-                🪙 {p.xp}
+                {"\u{1FA99}"} {p.xp}
               </div>
             </div>
 

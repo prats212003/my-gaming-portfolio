@@ -86,9 +86,20 @@
 
 .project-coin {
   border: 3px solid #0f172a;
-  padding: 4px 8px;
+  padding: 4px 5px;
   background: #facc15;
   font-size: 11px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  line-height: 1;
+}
+
+.coin-icon{
+  display:flex;
+  align-items:center;
 }
 
 .project-desc {

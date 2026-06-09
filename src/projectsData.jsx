@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Handwritten Digit Recognition",
+    title: <>Handwritten Digit <br /> Recognition</>,
     xp: 20,
     desc: "System to accurately recognize Handwritten Digits",
     tags: ["Python", "Keras", "ANN"]
@@ -30,7 +30,7 @@ export const projects = [
     tags: ["React", "WebSocket", "Firebase"]
   },
   {
-    title: "Google Playstore App Success Prediction",
+    title: <>Google Playstore App <br /> Success Prediction</>,
     xp: 15,
     desc: "System to accurately predict your Google Playstore App success",
     tags: ["Python", "Machine Learning", "Data Visualization"]
